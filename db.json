@@ -1,0 +1,238 @@
+[
+  {
+    "ref": "6509295a-f9ba-4386-ae3c-b45316804a12",
+    "keyword": "c0573400db49f7e3762d5dc9be8d87a7",
+    "answer": "hola",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
+    "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
+    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
+    "from": "573176827341"
+  },
+  {
+    "ref": "6305c02b-4acd-4db2-b06e-2fa26c2d053c",
+    "keyword": "02d4958538e090f7f338ed41249abe7c",
+    "answer": "1",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
+    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "from": "573176827341"
+  },
+  {
+    "ref": "aa097e33-39b5-4c19-b325-e1b252d68eaa",
+    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "answer": "1",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
+    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "answer": "1",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "from": "573176827341"
+  },
+  {
+    "ref": "09ececdb-2734-46a2-828d-6b9c0c8417f7",
+    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "answer": "hola",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
+    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "answer": "hola",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
+    "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
+    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
+    "from": "573176827341"
+  },
+  {
+    "ref": "32ee9ab9-fdb2-47db-b15d-ef8f6b9b8896",
+    "keyword": "02d4958538e090f7f338ed41249abe7c",
+    "answer": "453",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "cdf28efd3d7755f80314f047be5224f1"
+  },
+  {
+    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
+    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "answer": "🌟 ¡por favor ingresa una opcion valida! 🌟",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
+    "from": "573176827341"
+  },
+  {
+    "ref": "578e6040-0c44-459a-aa61-4dcb799d5fba",
+    "keyword": "02d4958538e090f7f338ed41249abe7c",
+    "answer": "1",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
+    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "from": "573176827341"
+  },
+  {
+    "ref": "57cfc527-f569-4abd-bff0-b7a1b6e9ca1c",
+    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "answer": "1",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
+    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "answer": "1",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "from": "573176827341"
+  }
+]

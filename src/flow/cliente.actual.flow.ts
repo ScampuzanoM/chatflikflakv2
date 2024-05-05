@@ -1,6 +1,7 @@
 import { addKeyword, EVENTS } from '@builderbot/bot';
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
+import { idleFlow, reset, start, stop } from '../idle-custom'
 
 export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGISTRADOS')
 .addAnswer(
@@ -14,8 +15,9 @@ export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGIST
     ].join('\n'),
     { delay: 800, capture: true },
     async (ctx, {gotoFlow, fallBack }) => {
+        reset(ctx, gotoFlow, Number(process.env.TIEMPOINACTIVIDAD));
         const opcion = ctx.body
-
+        stop(ctx);
         return fallBack(`${opcion}`)
     },
     []

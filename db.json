@@ -1,15 +1,15 @@
 [
   {
-    "ref": "6509295a-f9ba-4386-ae3c-b45316804a12",
-    "keyword": "c0573400db49f7e3762d5dc9be8d87a7",
+    "ref": "391a6611-d44a-4d19-befb-64e5c9d30637",
+    "keyword": "79e7fc16f7fb85373fd25a99390f44c0",
     "answer": "hola",
     "options": {},
-    "from": "573176827341",
+    "from": "573508363260",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
-    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
+    "ref": "ans_a1d9dce8-08e1-48f2-af41-1f29710f5d9b",
+    "keyword": "key_123a699f-1462-4936-8747-10d262db55f0",
     "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
     "options": {
       "buttons": [],
@@ -19,12 +19,27 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
-    "from": "573176827341"
+    "refSerialize": "9697b369fc8345485f7fb453b9eca1dd",
+    "from": "573508363260"
   },
   {
-    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "ref": "ans_778bee81-f82c-4422-b4c3-2b2aeae2f281",
+    "keyword": "ans_a1d9dce8-08e1-48f2-af41-1f29710f5d9b",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4503c79ea0e6ba65813d92c17356d86f",
+    "from": "573508363260"
+  },
+  {
+    "ref": "ans_4c388b7b-2c53-4078-8c31-38012928423d",
+    "keyword": "ans_778bee81-f82c-4422-b4c3-2b2aeae2f281",
     "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
     "options": {
       "buttons": [],
@@ -34,12 +49,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
-    "from": "573176827341"
+    "refSerialize": "474ba9d225b67436aa66c634277f8e49",
+    "from": "573508363260"
   },
   {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "ref": "ans_f97193bb-022e-432b-a2c3-692d5cf183fe",
+    "keyword": "ans_4c388b7b-2c53-4078-8c31-38012928423d",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -49,81 +64,61 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
-    "from": "573176827341"
+    "refSerialize": "793b949ad5c683ad0c35fc91a27b50b4",
+    "from": "573508363260"
   },
   {
-    "ref": "6305c02b-4acd-4db2-b06e-2fa26c2d053c",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
-    "answer": "1",
-    "options": {},
-    "from": "573176827341",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
+    "ref": "ans_7c7ea4bb-8ed8-4b12-9242-17bb25c9ffa1",
+    "keyword": "key_d412fa29-5040-4bc2-ace3-18f00ecd291b",
+    "answer": "__call_action__",
     "options": {
       "buttons": [],
-      "capture": true,
-      "delay": 800,
+      "capture": false,
+      "delay": 0,
       "nested": [],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
+    "refSerialize": "5c85ef1d9728537fc100ff6561391425",
+    "from": "573508363260"
   },
   {
-    "ref": "aa097e33-39b5-4c19-b325-e1b252d68eaa",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
-    "answer": "1",
-    "options": {},
-    "from": "573176827341",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "1",
+    "ref": "b7fea276-7b12-4587-913b-12977f317a83",
+    "keyword": null,
+    "answer": "🚫 Lamentamos informarte que la sesión se ha cancelado por inactividad. Para continuar, por favor escribe *menú* o *hola* y estaré encantado de ayudarte nuevamente. 😊",
     "options": {
+      "media": null,
       "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
+      "capture": false,
+      "delay": 0
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
+    "from": "573508363260",
+    "refSerialize": "edb7ace58a61cfc4a27d028def8964b2"
   },
   {
-    "ref": "09ececdb-2734-46a2-828d-6b9c0c8417f7",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "ref": "6af948ef-9083-4c5d-af13-8834daeba21a",
+    "keyword": "ans_7c7ea4bb-8ed8-4b12-9242-17bb25c9ffa1",
+    "answer": "__end_flow__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573508363260",
+    "refSerialize": "a07e48655d1eb1adf63c1b74c6ee668e"
+  },
+  {
+    "ref": "e6bbebe7-38f9-4d6c-abfa-1c609c8dad58",
+    "keyword": "a07e48655d1eb1adf63c1b74c6ee668e",
     "answer": "hola",
     "options": {},
-    "from": "573176827341",
+    "from": "573508363260",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "hola",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
-  },
-  {
-    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
-    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
+    "ref": "ans_a1d9dce8-08e1-48f2-af41-1f29710f5d9b",
+    "keyword": "key_123a699f-1462-4936-8747-10d262db55f0",
     "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
     "options": {
       "buttons": [],
@@ -133,12 +128,27 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
-    "from": "573176827341"
+    "refSerialize": "9697b369fc8345485f7fb453b9eca1dd",
+    "from": "573508363260"
   },
   {
-    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "ref": "ans_778bee81-f82c-4422-b4c3-2b2aeae2f281",
+    "keyword": "ans_a1d9dce8-08e1-48f2-af41-1f29710f5d9b",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4503c79ea0e6ba65813d92c17356d86f",
+    "from": "573508363260"
+  },
+  {
+    "ref": "ans_4c388b7b-2c53-4078-8c31-38012928423d",
+    "keyword": "ans_778bee81-f82c-4422-b4c3-2b2aeae2f281",
     "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
     "options": {
       "buttons": [],
@@ -148,12 +158,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
-    "from": "573176827341"
+    "refSerialize": "474ba9d225b67436aa66c634277f8e49",
+    "from": "573508363260"
   },
   {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "ref": "ans_f97193bb-022e-432b-a2c3-692d5cf183fe",
+    "keyword": "ans_4c388b7b-2c53-4078-8c31-38012928423d",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -163,43 +173,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
-    "from": "573176827341"
+    "refSerialize": "793b949ad5c683ad0c35fc91a27b50b4",
+    "from": "573508363260"
   },
   {
-    "ref": "32ee9ab9-fdb2-47db-b15d-ef8f6b9b8896",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
-    "answer": "453",
-    "options": {},
-    "from": "573176827341",
-    "refSerialize": "cdf28efd3d7755f80314f047be5224f1"
-  },
-  {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "answer": "🌟 ¡por favor ingresa una opcion valida! 🌟",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
-    "from": "573176827341"
-  },
-  {
-    "ref": "578e6040-0c44-459a-aa61-4dcb799d5fba",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
+    "ref": "6f962d91-30d0-47a1-b2a0-9b6c9a1e8620",
+    "keyword": "793b949ad5c683ad0c35fc91a27b50b4",
     "answer": "1",
     "options": {},
-    "from": "573176827341",
+    "from": "573508363260",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "ref": "ans_72e1d16a-4492-4fdb-94c7-9964161200ff",
+    "keyword": "key_bb915ea1-ae24-4f72-948c-4002e227f900",
     "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
     "options": {
       "buttons": [],
@@ -209,20 +196,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
+    "refSerialize": "39fccddc800685cef61ea5b3ba883a32",
+    "from": "573508363260"
   },
   {
-    "ref": "57cfc527-f569-4abd-bff0-b7a1b6e9ca1c",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "ref": "7f6bbb14-e586-4338-b124-c85de1fd6671",
+    "keyword": "39fccddc800685cef61ea5b3ba883a32",
     "answer": "1",
     "options": {},
-    "from": "573176827341",
+    "from": "573508363260",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "ref": "ans_72e1d16a-4492-4fdb-94c7-9964161200ff",
+    "keyword": "key_bb915ea1-ae24-4f72-948c-4002e227f900",
     "answer": "1",
     "options": {
       "buttons": [],
@@ -232,7 +219,7 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
+    "refSerialize": "39fccddc800685cef61ea5b3ba883a32",
+    "from": "573508363260"
   }
 ]

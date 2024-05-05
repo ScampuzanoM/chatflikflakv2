@@ -32,7 +32,7 @@ const reset = (ctx: BotContext, gotoFlow: (a: TFlow) => Promise<void>, ms: numbe
 // Function to stop the inactivity timer for a user
 const stop = (ctx: BotContext) => {
     if (timers[ctx.from]) {
-        console.log(`finalizacion de sesision para: ${ctx.from}`);
+        // console.log(`finalizacion de sesision para: ${ctx.from}`);
         clearTimeout(timers[ctx.from]);
     }
 }

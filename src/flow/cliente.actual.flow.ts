@@ -2,6 +2,7 @@ import { addKeyword, EVENTS } from '@builderbot/bot';
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 import { amtateurFlow } from './ameteur.flow';
+import { reset } from '../idle-custom'
 
 export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGISTRADOS')
 .addAnswer(
@@ -14,8 +15,8 @@ export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGIST
         '3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot',
     ].join('\n'),
     { delay: 800, capture: true },
-    async (ctx, {state, fallBack }) => {
-
+    async (ctx, {state, fallBack ,gotoFlow}) => {
+        reset(ctx, gotoFlow, Number(process.env.TIEMPOINACTIVIDAD));
         const  sede = ctx.body;
         if (sede != '1' && sede != '2' && sede != '3') {
             return fallBack('🌟 ¡por favor ingresa una opcion valida! 🌟')
@@ -35,7 +36,8 @@ export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGIST
         '2. Élite'
     ].join('\n'),
     { delay: 800, capture: true },
-    async (ctx, {state, fallBack }) => {
+    async (ctx, {state, fallBack ,gotoFlow}) => {
+        reset(ctx, gotoFlow, Number(process.env.TIEMPOINACTIVIDAD));
        const tipoCliente = ctx.body;
        if (!['1', '2'].includes(tipoCliente)) {
            return fallBack('¡por favor ingresa una opcion valida! 🌟')

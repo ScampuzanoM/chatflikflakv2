@@ -2,7 +2,7 @@ import { addKeyword, EVENTS } from '@builderbot/bot';
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 import { clienteActualFlow } from './cliente.actual.flow';
-import { idleFlow, reset, start, stop } from '../idle-custom'
+import { reset, start } from '../idle-custom'
 
 
 export const welcomeFlow = addKeyword<Provider, Database>(['hola', 'hoola', 'ole', 'alo', 'buenas', 'menu', 'holi', 'hol', 'oe', 'buenos'])

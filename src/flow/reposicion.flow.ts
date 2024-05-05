@@ -2,6 +2,7 @@ import { addKeyword } from '@builderbot/bot';
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 import json from '../../roles.json';
+import { stop } from '../idle-custom'
 
 
 export const reposicionFlow = addKeyword<Provider, Database>(['1'])
@@ -11,8 +12,8 @@ export const reposicionFlow = addKeyword<Provider, Database>(['1'])
         ,
     ].join('\n'),
    null,
-    async (_, {flowDynamic, state}) => {
-
+    async (ctx, {flowDynamic, state}) => {
+        stop(ctx);
         const myState = state.getMyState();
         const mensaje = `Hola,  mi nombre es ${myState.nombre} y necesito reponer una clase para el deportista ${myState.nonmbreDeportista}`
         const SEDE = json.sedes.find((sede) => sede.id === Number(myState.sede) );

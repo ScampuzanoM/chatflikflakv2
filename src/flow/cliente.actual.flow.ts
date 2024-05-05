@@ -1,6 +1,7 @@
 import { addKeyword, EVENTS } from '@builderbot/bot';
 import { JsonFileDB as Database } from '@builderbot/database-json'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
+import { amtateurFlow } from './ameteur.flow';
 
 export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGISTRADOS')
 .addAnswer(
@@ -13,10 +14,35 @@ export const clienteActualFlow = addKeyword<Provider, Database>('USUARIOS_REGIST
         '3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot',
     ].join('\n'),
     { delay: 800, capture: true },
-    async (ctx, {gotoFlow, fallBack }) => {
-        const opcion = ctx.body
+    async (ctx, {state, fallBack }) => {
 
-        return fallBack(`${opcion}`)
+        const  sede = ctx.body;
+        if (sede != '1' && sede != '2' && sede != '3') {
+            return fallBack('🌟 ¡por favor ingresa una opcion valida! 🌟')
+        } else {
+            await state.update({ sede: ctx.body })
+            return null;
+        }
     },
-    []
+
+)
+.addAnswer(
+    [
+        '¡FlikFlaker! 🌟',
+        'Elije que tipo de deportista eres:',
+        '',
+        '1. Amateur/Aficionado',
+        '2. Élite'
+    ].join('\n'),
+    { delay: 800, capture: true },
+    async (ctx, {state, fallBack }) => {
+       const tipoCliente = ctx.body;
+       if (!['1', '2'].includes(tipoCliente)) {
+           return fallBack('¡por favor ingresa una opcion valida! 🌟')
+         }
+            await state.update({ tipoCliente: ctx.body })
+            return null;
+
+    },
+    [amtateurFlow]
 )

@@ -1,15 +1,15 @@
 [
   {
-    "ref": "6509295a-f9ba-4386-ae3c-b45316804a12",
-    "keyword": "c0573400db49f7e3762d5dc9be8d87a7",
+    "ref": "17cc8389-b81d-4b72-997f-d8acc8005032",
+    "keyword": "b87c7d26c8de13e25ef350d22104caf4",
     "answer": "hola",
     "options": {},
     "from": "573176827341",
     "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
   },
   {
-    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
-    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
+    "ref": "ans_37795b54-22dc-4a6e-a869-df4d5b08cd74",
+    "keyword": "key_26ebf6a1-57af-495e-9884-89c9fc9640e1",
     "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
     "options": {
       "buttons": [],
@@ -19,12 +19,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
+    "refSerialize": "c25a071e8e2942f2c596f4198b0411ce",
     "from": "573176827341"
   },
   {
-    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
+    "ref": "ans_e90df3a2-4d6f-4fb4-8f18-0500e6a5ff0e",
+    "keyword": "ans_37795b54-22dc-4a6e-a869-df4d5b08cd74",
     "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
     "options": {
       "buttons": [],
@@ -34,12 +34,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
+    "refSerialize": "85b45f482bcd8c92e28e6feff339182f",
     "from": "573176827341"
   },
   {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
+    "ref": "ans_2c50caef-f8e8-4004-bd55-65d9299327db",
+    "keyword": "ans_e90df3a2-4d6f-4fb4-8f18-0500e6a5ff0e",
     "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
@@ -49,20 +49,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
+    "refSerialize": "7046f14dc6998b828037073f6fb29f72",
     "from": "573176827341"
   },
   {
-    "ref": "6305c02b-4acd-4db2-b06e-2fa26c2d053c",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
+    "ref": "a344793e-0100-4c00-ae95-19cc9d0da257",
+    "keyword": "7046f14dc6998b828037073f6fb29f72",
     "answer": "1",
     "options": {},
     "from": "573176827341",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
+    "ref": "ans_9c8775d4-a724-4aba-9f59-03bb476fd426",
+    "keyword": "key_6f3c0d3f-6b3f-4c97-8db0-a15d31a290f1",
     "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
     "options": {
       "buttons": [],
@@ -72,44 +72,165 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "refSerialize": "7b46f2d609ff28bd7d784d39ceb15d41",
     "from": "573176827341"
   },
   {
-    "ref": "aa097e33-39b5-4c19-b325-e1b252d68eaa",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
+    "ref": "d84a8a93-f5f8-41bc-ba05-98c909efe67b",
+    "keyword": "7b46f2d609ff28bd7d784d39ceb15d41",
     "answer": "1",
     "options": {},
     "from": "573176827341",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "1",
+    "ref": "ans_3b371d37-9f49-41f9-8dae-1b3b9c507b14",
+    "keyword": "ans_9c8775d4-a724-4aba-9f59-03bb476fd426",
+    "answer": "¡FlikFlaker! 🌟\nElije que tipo de deportista eres:\n\n1. Amateur/Aficionado\n2. Élite",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4ac36c406b3ba3f474c98e865dd56730",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_d9c9bb70-1165-4fa8-83e3-c6905c47163e",
+    "keyword": "ans_3b371d37-9f49-41f9-8dae-1b3b9c507b14",
+    "answer": "__capture_only_intended__",
     "options": {
       "buttons": [],
       "capture": true,
       "delay": 800,
-      "nested": [],
+      "nested": [
+        {
+          "ref": "key_dc09142e-bb89-4f2f-a031-3e18333cd529",
+          "keyword": "1",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "065e0005da6e5c278a53691e53b48955"
+        },
+        {
+          "ref": "ans_3a6e794c-37ba-4b18-a473-1af0da940f6a",
+          "keyword": "key_dc09142e-bb89-4f2f-a031-3e18333cd529",
+          "answer": "¿Cual es el nombre del deportista? 🌟",
+          "options": {
+            "buttons": [],
+            "capture": true,
+            "delay": 800,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "0d9c058c0ee48d054ab54ce6035b4406"
+        },
+        {
+          "ref": "ans_2dee18c2-f905-4b68-879b-ce3ab86b4636",
+          "keyword": "ans_3a6e794c-37ba-4b18-a473-1af0da940f6a",
+          "answer": "¿Cual es tu nombre completo? 🌟",
+          "options": {
+            "buttons": [],
+            "capture": false,
+            "delay": 800,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9ac010039922605b97681843c9b94e28"
+        },
+        {
+          "ref": "ans_a91f21d9-65f6-4110-b5c4-169eca17ed72",
+          "keyword": "ans_2dee18c2-f905-4b68-879b-ce3ab86b4636",
+          "answer": "__capture_only_intended__",
+          "options": {
+            "buttons": [],
+            "capture": true,
+            "delay": 800,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "416deed41a4db26d7a8d56dec97bdfaf"
+        },
+        {
+          "ref": "ans_75ad904e-92d7-4432-a167-d8c9e5f281a3",
+          "keyword": "ans_a91f21d9-65f6-4110-b5c4-169eca17ed72",
+          "answer": "*Menu*\n\n1. 🔁 Reposición de clases.\n2. 🗓️ Cambio horario.\n3. 💊 Reportar Incapacidad.\n4. 💵 Realizar pago.\n5. 🏅 Inscripción a eventos deportivos.",
+          "options": {
+            "buttons": [],
+            "capture": false,
+            "delay": 800,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f3e25655d9f6eed5eee6a7fbd8fc23c0"
+        },
+        {
+          "ref": "ans_32333fb0-83bf-4572-8658-8023f3d9bebb",
+          "keyword": "ans_75ad904e-92d7-4432-a167-d8c9e5f281a3",
+          "answer": "__capture_only_intended__",
+          "options": {
+            "buttons": [],
+            "capture": true,
+            "delay": 800,
+            "nested": [
+              {
+                "ref": "key_04fd6e6e-0bd5-4732-8fae-1b9078dc299d",
+                "keyword": [
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
+              },
+              {
+                "ref": "ans_922ffb4b-b529-4f4e-b94d-6c4bd8ee525b",
+                "keyword": "key_04fd6e6e-0bd5-4732-8fae-1b9078dc299d",
+                "answer": "¡Seras dirigido con un asesor personalizado que te ayudara con tu clase de reposición! 🌟",
+                "options": {
+                  "buttons": [],
+                  "capture": false,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "0fbf769930f21e2768d853118422b904"
+              }
+            ],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "7877dc3b506efdd8b4c55721eab1ab3b"
+        }
+      ],
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "refSerialize": "44897788728ead72343b3f5002871c46",
     "from": "573176827341"
   },
   {
-    "ref": "09ececdb-2734-46a2-828d-6b9c0c8417f7",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
-    "answer": "hola",
+    "ref": "3422cfec-920e-45e8-927a-fc797534c160",
+    "keyword": "44897788728ead72343b3f5002871c46",
+    "answer": "1",
     "options": {},
     "from": "573176827341",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "hola",
+    "ref": "ans_3a6e794c-37ba-4b18-a473-1af0da940f6a",
+    "keyword": "key_dc09142e-bb89-4f2f-a031-3e18333cd529",
+    "answer": "¿Cual es el nombre del deportista? 🌟",
     "options": {
       "buttons": [],
       "capture": true,
@@ -118,121 +239,145 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
+    "refSerialize": "0d9c058c0ee48d054ab54ce6035b4406",
     "from": "573176827341"
   },
   {
-    "ref": "ans_23c31a37-647e-4525-b414-93047504790b",
-    "keyword": "key_c4680bfa-350a-40a2-8353-75fc7b11e2df",
-    "answer": "🙌 ¡Hola FlikFlaker! Bienvenid@ a un mundo lleno de piruetas con *Flik-Flak*. Soy tu asistente virtual, *FlikFlakBot*.",
+    "ref": "eec93a0d-bc1a-47b1-ad37-1ab173df7906",
+    "keyword": "0d9c058c0ee48d054ab54ce6035b4406",
+    "answer": "sebastian",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "985f99907fa1caf7b48f1cebd9ab59c4"
+  },
+  {
+    "ref": "ans_2dee18c2-f905-4b68-879b-ce3ab86b4636",
+    "keyword": "ans_3a6e794c-37ba-4b18-a473-1af0da940f6a",
+    "answer": "¿Cual es tu nombre completo? 🌟",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9ac010039922605b97681843c9b94e28",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_a91f21d9-65f6-4110-b5c4-169eca17ed72",
+    "keyword": "ans_2dee18c2-f905-4b68-879b-ce3ab86b4636",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "416deed41a4db26d7a8d56dec97bdfaf",
+    "from": "573176827341"
+  },
+  {
+    "ref": "8d1e387a-2cc7-44f6-bc61-221b4d86dceb",
+    "keyword": "416deed41a4db26d7a8d56dec97bdfaf",
+    "answer": "santiago",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "9e297b029648def2608f24c406c3e340"
+  },
+  {
+    "ref": "ans_75ad904e-92d7-4432-a167-d8c9e5f281a3",
+    "keyword": "ans_a91f21d9-65f6-4110-b5c4-169eca17ed72",
+    "answer": "*Menu*\n\n1. 🔁 Reposición de clases.\n2. 🗓️ Cambio horario.\n3. 💊 Reportar Incapacidad.\n4. 💵 Realizar pago.\n5. 🏅 Inscripción a eventos deportivos.",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f3e25655d9f6eed5eee6a7fbd8fc23c0",
+    "from": "573176827341"
+  },
+  {
+    "ref": "ans_32333fb0-83bf-4572-8658-8023f3d9bebb",
+    "keyword": "ans_75ad904e-92d7-4432-a167-d8c9e5f281a3",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [
+        {
+          "ref": "key_04fd6e6e-0bd5-4732-8fae-1b9078dc299d",
+          "keyword": [
+            "1"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
+        },
+        {
+          "ref": "ans_922ffb4b-b529-4f4e-b94d-6c4bd8ee525b",
+          "keyword": "key_04fd6e6e-0bd5-4732-8fae-1b9078dc299d",
+          "answer": "¡Seras dirigido con un asesor personalizado que te ayudara con tu clase de reposición! 🌟",
+          "options": {
+            "buttons": [],
+            "capture": false,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "0fbf769930f21e2768d853118422b904"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7877dc3b506efdd8b4c55721eab1ab3b",
+    "from": "573176827341"
+  },
+  {
+    "ref": "6963aa20-91b2-4506-a0ea-8c930fd345d8",
+    "keyword": "7877dc3b506efdd8b4c55721eab1ab3b",
+    "answer": "1",
+    "options": {},
+    "from": "573176827341",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_922ffb4b-b529-4f4e-b94d-6c4bd8ee525b",
+    "keyword": "key_04fd6e6e-0bd5-4732-8fae-1b9078dc299d",
+    "answer": "¡Seras dirigido con un asesor personalizado que te ayudara con tu clase de reposición! 🌟",
     "options": {
       "buttons": [],
       "capture": false,
       "delay": 0,
       "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "9119a72010920f09a63ae3e43cbf9b5f",
+    "refSerialize": "0fbf769930f21e2768d853118422b904",
     "from": "573176827341"
   },
   {
-    "ref": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "keyword": "ans_23c31a37-647e-4525-b414-93047504790b",
-    "answer": "*Menú:*\n\n1. 🌐 Ya eres cliente.\n2. 👋 Nuevo FlikFlaker.\n3. 📋 Pólizas.\n4. 📪 PQRS\n5. 🎊 Agenda tu fiesta de cumpleaños.",
+    "ref": "659f6da9-1fc7-4b7a-9481-31cc1322e96f",
+    "keyword": null,
+    "answer": "*Haz clic en el siguiente enlace:*\n        https://wa.me/573016471547?text=Hola,%20%20mi%20nombre%20es%20santiago%20y%20necesito%20reponer%20una%20clase%20para%20el%20deportista%20sebastian",
     "options": {
+      "media": null,
       "buttons": [],
       "capture": false,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": false
+      "delay": 2000
     },
-    "refSerialize": "e5ec608acc697a3d72935f27ed739308",
-    "from": "573176827341"
-  },
-  {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
-    "from": "573176827341"
-  },
-  {
-    "ref": "32ee9ab9-fdb2-47db-b15d-ef8f6b9b8896",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
-    "answer": "453",
-    "options": {},
     "from": "573176827341",
-    "refSerialize": "cdf28efd3d7755f80314f047be5224f1"
-  },
-  {
-    "ref": "ans_dfb63657-a5e5-4593-b3a4-2c0cc542a21a",
-    "keyword": "ans_b570b2bd-7086-4314-b099-ba98d8cc592d",
-    "answer": "🌟 ¡por favor ingresa una opcion valida! 🌟",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "02d4958538e090f7f338ed41249abe7c",
-    "from": "573176827341"
-  },
-  {
-    "ref": "578e6040-0c44-459a-aa61-4dcb799d5fba",
-    "keyword": "02d4958538e090f7f338ed41249abe7c",
-    "answer": "1",
-    "options": {},
-    "from": "573176827341",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "¡Bienvenido de nuevo, FlikFlaker! 🌟\nDinos a qué sede de Flik-Flak perteneces\n\n1. Poblado: A una cuadra de la estación poblado del metro\n2. Palmas: Parque la reserva. A 300m de Indiana Mall\n3. Estadio: Coliseo de gimnasia Jorge Hugo Giraldo. Unidad Atanasio Girardot",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
-  },
-  {
-    "ref": "57cfc527-f569-4abd-bff0-b7a1b6e9ca1c",
-    "keyword": "3e92aed43cd9d561f6b1e98c909664c0",
-    "answer": "1",
-    "options": {},
-    "from": "573176827341",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_8589ec61-bf90-41c0-9c87-4d060a8b2056",
-    "keyword": "key_e85adc53-487c-4532-be88-bc6226c26763",
-    "answer": "1",
-    "options": {
-      "buttons": [],
-      "capture": true,
-      "delay": 800,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3e92aed43cd9d561f6b1e98c909664c0",
-    "from": "573176827341"
+    "refSerialize": "76a8d7289b6a14c383f65e3f39429915"
   }
 ]
